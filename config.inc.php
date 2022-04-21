@@ -40,7 +40,7 @@ $db->addServer(array (
   'user' => 'freedb_jim1122',
   'password' => 'j!KchHbG54TkbEP',
   'charset' => 'utf8mb4',
-  'port' => '3306',
+  'port' => '80',
   'database' => 'freedb_jimsblog',
   'engine' => 'MyISAM',
 ), Typecho_Db::READ | Typecho_Db::WRITE);
