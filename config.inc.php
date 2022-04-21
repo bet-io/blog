@@ -36,12 +36,12 @@ Typecho_Common::init();
 /** 定义数据库参数 */
 $db = new Typecho_Db('Pdo_Mysql', 'typecho_');
 $db->addServer(array (
-  'host' => 'jimblog-shard-00-02.j9vfl.mongodb.net',
-  'user' => 'Jim',
-  'password' => '19330074',
+  'host' => 'sql.freedb.tech',
+  'user' => 'freedb_jim1122',
+  'password' => 'j!KchHbG54TkbEP',
   'charset' => 'utf8mb4',
-  'port' => '27017',
-  'database' => 'jimblog',
+  'port' => '3306',
+  'database' => 'freedb_jimsblog',
   'engine' => 'MyISAM',
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
